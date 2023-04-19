@@ -14,14 +14,13 @@ html, body{
     font-size: 62.5%;
     text-rendering: optimizeLegibility;
 
-
+    background-color: #262626;
+   
+        
 }
 
 
 body{
-
-    
-    background-color: rgb(13, 9, 32); /*cor de fundo*/
     
     /*alinhamento de margem*/
     margin-top: 5%;
@@ -31,19 +30,57 @@ body{
 
 header{
 
-    font-size: 1.5rem;
     font-weight: bolder;
-
 
     display: flex;
     justify-content: center;
 
 }
 
-section{
+.menu{
 
-    margin-left: 3rem;
+    list-style:none;
+    border-bottom:0.1rem solid #c0c0c0;
+    float:left;
+    font-size: 1.8rem;
+}
 
+.menu li{
+    position:relative;
+    float:left;
+}
+
+.menu li a{
+
+    color: #F2F2F2; 
+    text-decoration:none; 
+    padding:0.5rem 1rem; 
+    display:block;}
+
+
+.menu li a:hover{
+
+background:#333;
+color:#fff;
+
+}
+
+.menu li  ul{
+
+    position:absolute;
+    top:2rem;
+    left:0;
+    background-color:#242424;
+    display:none;
+
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    border:0.1rem solid #c0c0c0;
+    display:block;
+    width:15rem;
 }
 
 input{
@@ -52,24 +89,46 @@ input{
 
 }
 
-.menu{
-
-    text-decoration: none;
-    color: rgb(187, 181, 181); 
-
-}
-
-.menu :hover {
-     
-color: rgb(221, 221, 0); 
-
-}
 
 .trend{
 
     width: 20rem;
+    height: 30rem;
+
     display: inline;
 
     border-radius: 5%;
+
+}
+
+.trend:hover{
+
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));  
+
+
+}
+
+main{
+
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+
+
+}
+
+#emalta{
+
+    margin-bottom: 3rem;
 
 }
