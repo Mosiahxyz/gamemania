@@ -14,7 +14,7 @@ html, body{
     font-size: 62.5%;
     text-rendering: optimizeLegibility;
 
-    background-color: #262626;
+    background-color: #000000;
    
         
 }
@@ -25,6 +25,13 @@ body{
     /*alinhamento de margem*/
     margin-top: 5%;
     margin-bottom: 5%;
+
+}
+
+#logo{
+
+    display: flex;
+    justify-content: center;
 
 }
 
