@@ -1,0 +1,137 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+   
+        
+}
+
+
+body{
+
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#60646d 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+
+}
+
+
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+
+
+    padding-right: 100%;
+    background-color: #283040;
+
+    position: fixed;
+
+    padding-left: 80rem;
+
+}
+
+
+#logo{
+
+    width: 10rem;
+    height: 10rem;
+
+    margin-right: 15rem;
+
+}
+
+header{
+
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20rem;
+
+
+}
+
+
+.menu{
+
+    display: flex;
+    align-items: center;
+
+    list-style:none;
+    float:left;
+    font-size: 2.5rem;
+
+    width: 100%;
+
+}
+
+.menu li{
+    position:relative;
+    float:left;
+}
+
+.menu li a{
+
+    color: #F2F2F2; 
+    text-decoration:none; 
+    padding:0.5rem 1rem; 
+    display:block;}
+
+
+.menu li a:hover{
+
+background: #405173;
+color:#fff;
+
+}
+
+article{
+
+    background-color: #60646d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+  
+
+}
+
+.cover{
+
+    margin-top: 3rem;
+    border-radius: 5%;
+
+    width: 100rem;
+    height: 45rem;
+
+
+}
+
+.icon{
+
+    border-radius: 50%;
+    position: absolute;
+
+  
+
+
+}

@@ -14,24 +14,43 @@ html, body{
     font-size: 62.5%;
     text-rendering: optimizeLegibility;
 
-    background-color: #000000;
    
         
 }
 
 
 body{
-    
-    /*alinhamento de margem*/
-    margin-top: 5%;
-    margin-bottom: 5%;
+
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#60646d 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
 
 }
 
-#logo{
+
+
+nav{
 
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+
+
+    padding-right: 100%;
+    background-color: #283040;
+
+    position: fixed;
+
+    padding-left: 80rem;
+
+}
+
+
+#logo{
+
+    width: 10rem;
+    height: 10rem;
+
+    margin-right: 15rem;
 
 }
 
@@ -44,12 +63,18 @@ header{
 
 }
 
+
 .menu{
 
+    display: flex;
+    align-items: center;
+
     list-style:none;
-    border-bottom:0.1rem solid #c0c0c0;
     float:left;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
+
+    width: 100%;
+
 }
 
 .menu li{
@@ -67,28 +92,11 @@ header{
 
 .menu li a:hover{
 
-background:#333;
+background: #405173;
 color:#fff;
 
 }
 
-.menu li  ul{
-
-    position:absolute;
-    top:2rem;
-    left:0;
-    background-color:#242424;
-    display:none;
-
-}
-
-.menu li:hover ul, .menu li.over ul{display:block;}
-
-.menu li ul li{
-    border:0.1rem solid #c0c0c0;
-    display:block;
-    width:15rem;
-}
 
 input{
 
@@ -104,6 +112,8 @@ input{
 
     display: inline;
 
+
+    margin-left: 1.5rem;
     border-radius: 5%;
 
 }
@@ -125,7 +135,11 @@ main{
     font-size: 2.5rem;
     font-weight: bolder;
 
-    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+
+
+    margin-top: 20rem;
     margin-bottom: 3rem;
     margin-left: 6rem;
     margin-right: 6rem;
@@ -139,3 +153,79 @@ main{
     margin-bottom: 3rem;
 
 }
+
+.recomendados{
+
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+    margin-top: 9rem;
+    background-color: #405173;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      width: 45rem;
+      height: 7rem;
+
+
+
+
+}
+
+.recomendados, article{
+
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+}
+
+.artigoimg{
+
+    width: 15rem;
+    height: 10rem;
+
+    border-radius: 5%;
+
+}
+
+article{
+
+    margin-bottom: 1rem;
+    background-color: #405173;
+    font-size: 3rem;
+
+    border-radius: 3rem;
+
+
+    display: flex;
+
+}
+
+p{
+
+   text-align: justify;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;   
+
+
+}
+
+.artigos{
+
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+.artigos:hover{
+
+    color:#cdcdcd;
+    
+    }
+
+
+
