@@ -42,6 +42,7 @@ nav{
 
     padding-left: 80rem;
 
+
 }
 
 
@@ -100,38 +101,71 @@ color:#fff;
 
 }
 
-article{
-
-    background-color: #60646d;
+main{
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-left: 5rem;
-    margin-right: 5rem;
-
   
 
 }
 
-.cover{
+div{
 
-    margin-top: 3rem;
-    border-radius: 5%;
+    background-color: #405173;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
 
-    width: 100rem;
-    height: 45rem;
+    border-radius: 5rem;
 
 
 }
+
+#titulo, #conteudo{
+
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#conteudo{
+
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+
+    padding-bottom: 6rem;
+
+    font-size: 2rem;
+
+}
+
+
 
 .icon{
 
-    border-radius: 50%;
-    position: absolute;
+    background: url('../img/perfis/coverstar.png');
+    background-repeat: no-repeat;
 
-  
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 
+    border-radius: 5rem;
+
+    background-position: center, center;
+    padding: 7rem 27rem 7rem 27rem;
 
 }
+
+
+
+#titulo{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10rem;
+
+}
+
