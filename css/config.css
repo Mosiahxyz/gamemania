@@ -1,0 +1,232 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+   
+        
+}
+
+
+body{
+
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#60646d 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+
+}
+
+
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+
+
+    padding-right: 100%;
+    background-color: #283040;
+
+    position: fixed;
+
+    padding-left: 80rem;
+
+
+}
+
+
+#logo{
+
+    width: 10rem;
+    height: 10rem;
+
+    margin-right: 15rem;
+
+}
+
+header{
+
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 15rem;
+
+
+}
+
+
+.menu{
+
+    display: flex;
+    align-items: center;
+
+    list-style:none;
+    float:left;
+    font-size: 2.5rem;
+
+    width: 100%;
+
+}
+
+.menu li{
+    position:relative;
+    float:left;
+}
+
+.menu li a{
+
+    color: #F2F2F2; 
+    text-decoration:none; 
+    padding:0.5rem 1rem; 
+    display:block;}
+
+
+.menu li a:hover{
+
+background: #405173;
+color:#fff;
+
+}
+
+
+.card {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .card a {
+    text-decoration: none;
+  }
+  
+  .header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .post-image {
+    width: auto;
+    border-radius: 0.5rem;
+    height: 8rem;
+    background-color: royalblue;
+  }
+  
+
+
+  .content {
+    flex: 1 1 0%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tag {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: royalblue;
+  }
+  
+  .title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    font-weight: bolder;
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .description {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #474444;
+  }
+  
+  .footer {
+    background-color: transparent;
+    padding: 1.5rem;
+    padding-top: 0rem;
+    display: flex;
+  }
+  
+  .poster {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
+  .poster .image {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.75rem;
+    background-color: royalblue;
+  }
+  
+  .info {
+    margin-left: 0.75rem;
+  }
+  
+  .info .name {
+    margin-bottom: 0rem;
+    font-weight: 700;
+    color: rgba(51, 65, 85, 1);
+  }
+  
+  .info .date {
+    margin-bottom: 0rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #474444;
+  }
+
+#corpo{
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+
+
+#titulo{
+
+    margin-top: 5rem;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1rem;
+
+    width: 60rem;
+    height: 10rem;
+    background-color: #405173;
+
+    margin-bottom: 5rem;
+
+}
+
+
+
