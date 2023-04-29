@@ -22,11 +22,10 @@ html, body{
 body{
 
     background-color: #e5e5f7;
-    background-image: radial-gradient(#60646d 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;
+    background-image: radial-gradient(#60646d 0.1em, #e5e5f7 0.1rem);
+    background-size: 2rem 2rem;
 
 }
-
 
 
 nav{
@@ -102,102 +101,6 @@ color:#fff;
 }
 
 
-.card {
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0.75rem;
-    background-color: rgba(255, 255, 255, 1);
-    -webkit-background-clip: border-box;
-    background-clip: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  .card a {
-    text-decoration: none;
-  }
-  
-  .header {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-  }
-  
-  .post-image {
-    width: auto;
-    border-radius: 0.5rem;
-    height: 8rem;
-    background-color: royalblue;
-  }
-  
-
-
-  .content {
-    flex: 1 1 0%;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .tag {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: royalblue;
-  }
-  
-  .title {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-
-    font-weight: bolder;
-    font-size: 2rem;
-    color: black;
-  }
-  
-  .description {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    color: #474444;
-  }
-  
-  .footer {
-    background-color: transparent;
-    padding: 1.5rem;
-    padding-top: 0rem;
-    display: flex;
-  }
-  
-  .poster {
-    height: 2.5rem;
-    width: 2.5rem;
-  }
-  
-  .poster .image {
-    height: 100%;
-    width: 100%;
-    border-radius: 0.75rem;
-    background-color: royalblue;
-  }
-  
-  .info {
-    margin-left: 0.75rem;
-  }
-  
-  .info .name {
-    margin-bottom: 0rem;
-    font-weight: 700;
-    color: rgba(51, 65, 85, 1);
-  }
-  
-  .info .date {
-    margin-bottom: 0rem;
-    font-size: 0.75rem;
-    line-height: 1rem;
-    color: #474444;
-  }
-
 #corpo{
 
     margin-left: 5rem;
@@ -228,5 +131,92 @@ color:#fff;
 
 }
 
+.sub{
+
+    margin-top: 3rem;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
+    width: 30rem;
+    height: 5rem;
+    background-color: #405173;
+
+    margin-bottom: 5rem;
+
+}
+
+
+section{
+
+  gap: 2rem;
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+main{
+
+  background-color: #405173;
+
+  border-radius: 1rem;
+
+  width: 30rem;
+  height: 40rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+
+}
+
+.icon{
+
+  width: 25rem;
+  height: 15rem;
+
+  border-radius: 1rem;
+
+}
+
+.nome{
+
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.lista{
+
+  font-size: 2rem;
+
+}
+
+.site-footer
+{
+      background-color:#405173;
+      padding:2rem 0 2rem;
+      font-size:1.5rem;
+      color:#fffefe;
+
+      margin-top: 3rem;
+}
+
+ 
+.site-footer h6
+{
+      color:#fff;
+      font-size:3rem;
+      margin-top:2rem;
+}
+
+h6{ margin-left: 2rem;}
+    

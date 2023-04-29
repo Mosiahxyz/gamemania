@@ -22,8 +22,8 @@ html, body{
 body{
 
     background-color: #e5e5f7;
-    background-image: radial-gradient(#60646d 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;
+    background-image: radial-gradient(#60646d 0.1em, #e5e5f7 0.1rem);
+    background-size: 2rem 2rem;
 
 }
 
@@ -227,5 +227,23 @@ p{
     
     }
 
+.site-footer
+{
+      background-color:#405173;
+      padding:2rem 0 2rem;
+      font-size:1.5rem;
+      color:#fffefe;
 
+      margin-top: 3rem;
+}
 
+ 
+.site-footer h6
+{
+      color:#fff;
+      font-size:3rem;
+      margin-top:2rem;
+}
+
+h6{ margin-left: 2rem;}
+    

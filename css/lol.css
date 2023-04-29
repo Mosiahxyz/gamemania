@@ -22,8 +22,8 @@ html, body{
 body{
 
     background-color: #e5e5f7;
-    background-image: radial-gradient(#60646d 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;
+    background-image: radial-gradient(#60646d 0.1em, #e5e5f7 0.1rem);
+    background-size: 2rem 2rem;
 
 }
 
