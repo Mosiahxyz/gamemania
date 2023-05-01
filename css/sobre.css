@@ -1,0 +1,176 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+   
+        
+}
+
+
+body{
+
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#60646d 0.1em, #e5e5f7 0.1rem);
+    background-size: 2rem 2rem;
+
+}
+
+
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+
+
+    padding-right: 100%;
+    background-color: #283040;
+
+    position: fixed;
+
+    padding-left: 80rem;
+
+}
+
+
+#logo{
+
+    width: 10rem;
+    height: 10rem;
+
+    margin-right: 15rem;
+
+}
+
+header{
+
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.menu{
+
+    display: flex;
+    align-items: center;
+
+    list-style:none;
+    float:left;
+    font-size: 2.5rem;
+
+    width: 100%;
+
+}
+
+.menu li{
+    position:relative;
+    float:left;
+}
+
+.menu li a{
+
+    color: #F2F2F2; 
+    text-decoration:none; 
+    padding:0.5rem 1rem; 
+    display:block;}
+
+
+.menu li a:hover{
+
+background: #405173;
+color:#fff;
+
+}
+
+main{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 13rem;
+
+
+}
+
+#conteudo{
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+
+    border-radius: 1rem;
+    background-color: #405173;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10em;
+    width: 110rem;
+
+    font-size: 1.8rem;
+    text-align: justify;
+
+}
+
+span{
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+
+
+#fotopf{
+
+    width: 30rem;
+    height: 30rem;
+    
+    background-color: #405173;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+.site-footer
+{
+      background-color:#405173;
+      padding:2rem 0 2rem;
+      font-size:1.5rem;
+      color:#fffefe;
+
+      margin-top: 3rem;
+}
+
+ 
+.site-footer h6
+{
+      color:#fff;
+      font-size:3rem;
+      margin-top:2rem;
+}
+
+h6{ margin-left: 2rem;}
+    
